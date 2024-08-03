@@ -15,7 +15,7 @@
   <section v-else class="flex flex-col justify-center items-center w-screen h-screen">
     <h1 class="m-5">¿Quién es este Pokémon?</h1>
     <div class="h-20">
-      <button v-if="gameStatus !== GameStatus.Playing" @click="getNextRound()" class="btnNuevo">
+      <button v-if="gameStatus !== GameStatus.Playing" @click="getNextRound(4)" class="btnNuevo">
         Nuevo Juego
       </button>
     </div>
